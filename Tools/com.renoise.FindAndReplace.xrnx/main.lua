@@ -449,7 +449,7 @@ function find_next(visible_content_only)
   end
 
 
-  -- start or contine the search...
+  -- start or continue the search...
   
   local found_match = false
   local note_mode = note_mode()
@@ -591,7 +591,7 @@ To find any non empty values, specify a '*' in the find fields. To replace match
 Note, Instr, Vol, Pan, Delay
 C-4, *, 20, *, *
 
-Matches any occurences or 'C-4's which have a volume of 20. All other fields are ignored (always matched, empty or not), so a 'C-4 01 20 80' will match just like 'C-4 02 20 ..' will do...
+Matches any occurrences or 'C-4's which have a volume of 20. All other fields are ignored (always matched, empty or not), so a 'C-4 01 20 80' will match just like 'C-4 02 20 ..' will do...
 
 * A 'replace' example:
 using the find example above, setting the replace fields like:
